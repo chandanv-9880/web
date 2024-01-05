@@ -7,27 +7,49 @@
     <title>Your Ed-tech Company</title>
 </head>
 <body>
-    <!-- Content Goes Here -->
+
+    <header>
+        <h1>Your Ed-tech Company</h1>
+        <nav>
+            <a href="#curriculum">Curriculum</a>
+            <a href="#pricing">Pricing</a>
+            <!-- Add more navigation links as needed -->
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Content Goes Here -->
+        <h2>Welcome to our Ed-tech platform!</h2>
+        <p>Empowering students with math and Python skills.</p>
+
+        <!-- Add your curriculum and pricing sections here -->
+
+        <div id="popup">
+            <div id="popup-content">
+                <span id="close-popup">&times;</span>
+                <h2>Provide Your Information</h2>
+                <form id="client-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Ed-tech Company | All rights reserved
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
-
 </html>
-<div id="popup">
-    <div id="popup-content">
-        <span id="close-popup">&times;</span>
-        <h2>Provide Your Information</h2>
-        <form id="client-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
 
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-</div>
